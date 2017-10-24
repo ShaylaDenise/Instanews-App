@@ -1,0 +1,1 @@
+var url="https://api.nytimes.com/svc/topstories/v2/home.json";url+="?"+$.param({"api-key":"39902597f9794564bab42496da94c8e5"}),$.ajax({url:url,method:"GET"}).done(function(o){console.log(o)}).fail(function(o){throw o});
